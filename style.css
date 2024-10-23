@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+
+/* Reuseable Style */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 2.5rem;
+    background: rgb(230, 83, 60);
+    padding: 1rem 2.5rem;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
+
+
+
+
+/* Start header section */
+.header {
+    background-image: linear-gradient(to right top, #272924, #21201c, #1a1716, #100e0d, #000000);
+    /* width: 100%;
+    height: 48rem; */
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px;
+
+}
+
+.icon {
+    display: none;
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+
+
+}
+
+.nav-right ul li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.nav-right ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.nav-right ul li a:hover {
+    background: rgb(230, 83, 60);
+    border-radius: 40px;
+
+
+}
+
+.nav-left h2 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* Start Banner Section */
+
+.banner-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left h1 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.font-2 {
+    font-family: 'Miama', sans-serif;
+    font-weight: 700;
+}
+
+.banner-left p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0px;
+    line-height: 1.5rem;
+}
+
+.banner-left {}
+
+.banner-right {
+    position: relative;
+
+
+}
+
+.banner-right .img {
+    width: 100%;
+}
+
+.btn-2 {
+    margin-left: 20px;
+    background: transparent;
+    border-radius: 2.5rem;
+    padding: 1rem 2.5rem;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid rgb(255, 255, 255);
+    ;
+    color: #fff;
+}
+
+.circle-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 30px;
+    right: -100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle-1 h3,
+.circle-2 h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.cp-1,
+.cp-2 {
+    color: rgba(242, 238, 238, 0.891);
+    font-family: Inter;
+    font-size: .95rem;
+    font-weight: 400;
+}
+
+.circle-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    position: absolute;
+    bottom: 20px;
+    right: 300px;
+
+}
+
+.circle-2-left {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+.circle-2-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Start Habits Section */
+.habit-container {
+    background-color: #000000;
+}
+
+.habit-wrapper {
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.habit-wrapper h2 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.habit-wrapper p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.2trm;
+    font-weight: 400;
+   
+}
+
+.habit-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.habit-img-container img {
+    width: 85%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 20px 0px;
+}
+
+.img-card h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.img-card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: .90rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+}
