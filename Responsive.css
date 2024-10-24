@@ -317,8 +317,144 @@
     }
 
 
+    /* Start Team Section */
+
+  
+.img-card-full-wrapper {
+    padding: 50px 0;
+    text-align: center;
+
+}
+.img-card-container-text {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.img-card-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.img-card-container p {
+    margin-bottom: 40px;
+    color: #555;
+    font-size: 1rem;
+}
+
+.img-card-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    margin-left: 0px;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+}
 
 
+.img-card-1 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/trainer1.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
 
+.img-card-2 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/trainer2.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-card-3 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/trainer3.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-card-4 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/trainer4.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-card-5 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/trainer5.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-card-6 {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/trainer6.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+    gap: 5px;
+}
+
+
+.img-text h5 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.img-text p {
+    color: rgb(196, 193, 193);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 
 }
